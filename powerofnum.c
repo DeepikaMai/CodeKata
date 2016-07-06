@@ -1,17 +1,13 @@
 #include<stdio.h>
 #include<conio.h>
+#include<math.h>
 void main()
 {
-int i,pwr,n;
+int i,n;
 clrscr();
-printf("Enter the value : ");
-scanf("%d",&n);
-pwr=1;
-for(i=1;i<=n;)
-{
-pwr=pwr*n;
-i++;
-}
-printf("%d",pwr);
+printf("Enter the value : \n");
+scanf("%d\n",&n);
+i=pow(n,n);
+printf("%d",i);
 getch();
 }
