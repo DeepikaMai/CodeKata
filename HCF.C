@@ -12,7 +12,6 @@ scanf("%d%d",&n1,&n2);
     if(n1%i==0 && n2%i==0)
      hcf=i;
     }
-
 printf("The hcf is %d " ,hcf);
 getch();
 }
