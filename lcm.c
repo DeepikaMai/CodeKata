@@ -11,7 +11,7 @@ scanf("%d%d",&n1,&n2);
    {
     if(min%n1==0 && min%n2==0)
      {
-     printf("The hcf is %d " ,lcm);
+     printf("The lcm is %d " ,lcm);
      break;
      }
      ++min;
