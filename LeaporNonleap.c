@@ -12,7 +12,7 @@ printf("The entered year %d is a leap year",year);
 }
 else
 {
-printf("The entered year %d is not a leap year");
+printf("The entered year %d is not a leap year", year);
 }
 getch();
 }
